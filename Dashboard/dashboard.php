@@ -6,7 +6,7 @@ $fetch_my_data=mysqli_fetch_row($execute_query);
 for($i=1;$i<=5;$i++)
 {
     $fetch_my_data=mysqli_fetch_row($execute_query);
-    print_r($fetch_my_data);
+    //print_r($fetch_my_data);
 ?>
 
 
@@ -231,5 +231,6 @@ for($i=1;$i<=5;$i++)
 </html>
 
 <?php
+break;
 }
 ?>
